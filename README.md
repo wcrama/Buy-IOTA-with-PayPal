@@ -1,7 +1,7 @@
 # Buy-IOTA-with-PayPal
 Buy IOTA with PayPal HTML,PHP,MYSQL,JS Script
 
-$amount x $cryptoprice = $totalamount
+$totalamount = $amount x $cryptoprice 
 
 $cryptoprice = Bitfinex API
 
@@ -14,4 +14,4 @@ Free IOTA Mining,
 Free Online Wallet,
 Whatsapp Support button.
 
-Live Example: https://free-data-x.000webhostapp.com/iotakopen/
+Live Example: 
